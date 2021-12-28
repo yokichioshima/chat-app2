@@ -10,7 +10,7 @@
 <div class="chat-view">
   <div class="chat-messages">
     <% @messages.each do |message| %>
-      <%= render partial: "message", locals: { massage: message } %>
+      <%= render partial: "message", locals: { message: message }  %>
     <% end %>
   </div>
 </div>
